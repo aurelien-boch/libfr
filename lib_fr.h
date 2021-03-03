@@ -8,21 +8,23 @@
 #ifndef LIB_FR_H
 #define LIB_FR_H
 
-//types
+// --- types ---
 
-//floats
-typedef float       flottant;
-typedef double      gros_flottant;
+#include <stdbool.h>
 
-//integers
-typedef long        gros_entier;
-typedef int         entier;
-typedef short       court;
-typedef char        caractere;
-typedef void        neant;
+typedef float           flottant;
+typedef double          gros_flottant;
+typedef long            gros_entier;
+typedef int             entier;
+typedef short           court;
+typedef char            caractere;
+typedef void            neant;
+typedef bool            booleen;
 
-typedef unsigned    non_signe;
-typedef signed      signe;
+typedef unsigned long   gros_entier_non_signe;
+typedef unsigned int    entier_non_signe;
+typedef unsigned short  court_non_signe;
+typedef unsigned char   caractere_non_signe;
 
 // --- fonctions ---
 #define DEBUT_1_ARG(ac) main(ac)
@@ -56,6 +58,7 @@ typedef signed      signe;
 #define retourne return
 #define taille_de(...) sizeof(__VA_ARGS__)
 #define structure struct
+#define definir_type typedef
 
 // --- CONSTS ---
 
