@@ -59,6 +59,11 @@ typedef unsigned char   caractere_non_signe;
 #define taille_de(...) sizeof(__VA_ARGS__)
 #define structure struct
 #define definir_type typedef
+#define dans_le switch
+#define cas_de case
+#define tableau_de *
+#define dereferencer *
+#define referencer &
 
 // --- CONSTS ---
 
