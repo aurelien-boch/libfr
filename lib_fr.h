@@ -55,6 +55,7 @@ typedef signed      signe;
 #define en_une_ligne inline;
 #define retourne return
 #define taille_de(...) sizeof(__VA_ARGS__)
+#define structure struct
 
 // --- CONSTS ---
 
@@ -65,7 +66,7 @@ typedef signed      signe;
 
 #define egal =
 #define egal_a ==
-#define pas_egal !=
+#define pas_egal_a !=
 #define inferieur_a <
 #define superieur_a >
 #define inferieur_ou_egal_a <=
