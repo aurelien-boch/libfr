@@ -52,9 +52,9 @@ typedef unsigned char   caractere_non_signe;
 
 // --- mot clés --
 #define registre register
-#define constant const;
-#define statique static;
-#define en_une_ligne inline;
+#define constant const
+#define statique static
+#define en_une_ligne inline
 #define retourne return
 #define taille_de(...) sizeof(__VA_ARGS__)
 #define structure struct
