@@ -55,7 +55,7 @@ typedef unsigned char   caractere_non_signe;
 #define constant const
 #define statique static
 #define en_une_ligne inline
-#define retourne return
+#define renvoie return
 #define taille_de(...) sizeof(__VA_ARGS__)
 #define structure struct
 #define definir_type typedef
@@ -90,5 +90,6 @@ typedef unsigned char   caractere_non_signe;
 #define et_binaire &
 #define ou_binaire |
 #define ou_exclusif ^
+
 
 #endif //LIB_FR_H
