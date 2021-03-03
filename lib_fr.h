@@ -60,4 +60,21 @@ typedef signed      signe;
 
 #define nul NULL
 
+
+// --- OPERATEURS ---
+
+#define egal =
+#define egal_a ==
+#define pas_egal !=
+#define inferieur_a <
+#define superieur_a >
+#define inferieur_ou_egal_a <=
+#define superieur_ou_egal_a >=
+#define pas !
+#define et &&
+#define ou ||
+#define et_binaire &
+#define ou_binaire |
+#define ou_exclusif ^
+
 #endif //LIB_FR_H
