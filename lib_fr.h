@@ -64,6 +64,11 @@ typedef unsigned char   caractere_non_signe;
 #define tableau_de *
 #define dereferencer *
 #define referencer &
+#define plus +
+#define moins -
+#define diviser_par /
+#define multiplier_par *
+#define modulo_de %
 
 // --- CONSTS ---
 
