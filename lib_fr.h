@@ -26,6 +26,9 @@ typedef unsigned int    entier_non_signe;
 typedef unsigned short  court_non_signe;
 typedef unsigned char   caractere_non_signe;
 
+#define vrai true
+#define faux false
+
 // --- fonctions ---
 #define DEBUT_1_ARG(ac) main(ac)
 #define DEBUT_2_ARGS(ac, av) main(ac, av)
