@@ -26,6 +26,9 @@ typedef unsigned int    entier_non_signe;
 typedef unsigned short  court_non_signe;
 typedef unsigned char   caractere_non_signe;
 
+typedef long long       tres_gros_entier;
+typedef long double     tres_gros_flottant;
+
 #define vrai true
 #define faux false
 
