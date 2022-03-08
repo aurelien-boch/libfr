@@ -19,4 +19,5 @@ entier debut(neant)
 
     printf("%s\n", res);
     free(res);
+    renvoie (0);
 }
